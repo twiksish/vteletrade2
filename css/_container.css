@@ -37,6 +37,14 @@
                 left: 0;
             }
 
-        .container__body__mission {
+        .container__body__top {
+
+        }
+
+        .container__body__middle {
+            margin-top: 58px;
+        }
+
+        .container__body__bottom {
 
         }
