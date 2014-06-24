@@ -1,17 +1,40 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
 }
 
-.icon_bitcoin {
-    width: 33px;
-    height: 33px;
-    background-position: 0 -72px;
+.icon_fb {
+    width: 37px;
+    height: 37px;
+    background: url(../images/icon_fb.png);
 }
 
-.icon_house {
-    width: 13px;
-    height: 10px;
-    background-position: -33px -72px;
+.icon_arrow {
+    width: 47px;
+    height: 31px;
+    background: url(../images/icon_arrow.png);
+}
+
+.icon_pin {
+    width: 28px;
+    height: 44px;
+    background: url(../images/icon_pin.png);
+}
+
+.icon_visa {
+    width: 55px;
+    height: 50px;
+    background: url(../images/visa.png);
+}
+
+.icon_mastercard {
+    width: 68px;
+    height: 50px;
+    background: url(../images/mastercard.png);
+}
+
+.icon_verisign {
+    width: 90px;
+    height: 50px;
+    background: url(../images/verisign.png);
 }

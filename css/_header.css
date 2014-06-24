@@ -1,9 +1,49 @@
 .header {
-    height: 200px;
+    height: 441px;
     position: relative;
 }
-    .header__logo {
+
+    .header__top {
+        padding-top: 26px;
+    }
+
+        .header__top__left {
+            text-align: center;
+        }
+
+            .header__top__left__logo {
+                display: inline-block;
+                vertical-align: top;
+                background: url(../images/logo.png);
+                width: 307px;
+                height: 43px;
+            }
+
+        .header__top__right {
+            position: absolute;
+            top: 24px;
+            right: 0;
+        }
+
+            .header__top__right__icons {
+
+            }
+
+                .header__top__right__icons__item {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 7px;
+                }
+
+                .header__top__right__icons__item:first-child {
+                    margin-left: 0;
+                }
+
+    .header__image {
+        background: url(../images/header_image.png);
+        width: 302px;
+        height: 441px;
         position: absolute;
-        left: 10px;
-        top: 10px;
+        top: 0;
+        left: 30px;
     }

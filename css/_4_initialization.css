@@ -4,6 +4,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background: url(../images/header.png) no-repeat center top;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
