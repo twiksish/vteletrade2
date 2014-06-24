@@ -9,6 +9,7 @@
 
     .container__body {
         background: #fff;
+        padding-bottom: 43px;
     }
 
         .container__body__header {
@@ -46,5 +47,5 @@
         }
 
         .container__body__bottom {
-
+            margin-top: 46px;
         }
