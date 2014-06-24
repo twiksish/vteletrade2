@@ -1,0 +1,41 @@
+.mission {
+    padding-top: 25px;
+}
+
+    .mission__left {
+        background: url(../images/feature_image1.png);
+        width: 374px;
+        height: 285px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 35px;
+    }
+
+    .mission__right {
+        display: inline-block;
+        vertical-align: top;
+        width: 435px;
+        margin-left: 16px;
+        margin-top: 21px;
+    }
+
+        .mission__right__title {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 34px;
+            color: #fff;
+            background: #0078bc url(../images/feature_background1.png) no-repeat center center;
+            -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+            width: 406px;
+            padding: 20px 14px 20px 18px;
+        }
+
+        .mission__right__text {
+            font-size: 14px;
+            line-height: 16px;
+            color: #000;
+            margin-top: 13px;
+            margin-left: 16px;
+        }

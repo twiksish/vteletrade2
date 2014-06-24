@@ -1,5 +1,5 @@
 .header {
-    height: 441px;
+    height: 451px;
     position: relative;
 }
 
@@ -41,9 +41,9 @@
 
     .header__image {
         background: url(../images/header_image.png);
-        width: 302px;
-        height: 441px;
+        width: 309px;
+        height: 451px;
         position: absolute;
         top: 0;
-        left: 30px;
+        left: 26px;
     }
