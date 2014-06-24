@@ -1,0 +1,15 @@
+html {
+    min-width: 930px;
+    background: #e3e3e3 url(../images/background.jpg);
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
