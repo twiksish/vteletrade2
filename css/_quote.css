@@ -62,5 +62,5 @@
         .quote__body__pin {
             position: absolute;
             top: 35px;
-            left: -28px;
+            right: 100%;
         }

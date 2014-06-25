@@ -1,12 +1,8 @@
 html {
     min-width: 930px;
-    background: #917a53 url(../images/background.jpg);
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background: url(../images/header.png) no-repeat center top;
-}
 
 ::-moz-selection {
     background: #b3d4fc;

@@ -1,3 +1,7 @@
 .page {
-
+    background: #917a53 url(../images/background.jpg) repeat center top;
 }
+
+    .page__inner {
+        background: url(../images/header.jpg) no-repeat center top;
+    }

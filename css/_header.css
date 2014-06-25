@@ -7,16 +7,13 @@
         padding-top: 26px;
     }
 
-        .header__top__left {
+        .header__top__center {
             text-align: center;
         }
 
-            .header__top__left__logo {
+            .header__top__center__inner {
                 display: inline-block;
                 vertical-align: top;
-                background: url(../images/logo.png);
-                width: 307px;
-                height: 43px;
             }
 
         .header__top__right {
@@ -24,26 +21,3 @@
             top: 24px;
             right: 0;
         }
-
-            .header__top__right__icons {
-
-            }
-
-                .header__top__right__icons__item {
-                    display: inline-block;
-                    vertical-align: top;
-                    margin-left: 7px;
-                }
-
-                .header__top__right__icons__item:first-child {
-                    margin-left: 0;
-                }
-
-    .header__image {
-        background: url(../images/header_image.png);
-        width: 309px;
-        height: 451px;
-        position: absolute;
-        top: 0;
-        left: 26px;
-    }

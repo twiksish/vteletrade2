@@ -1,0 +1,13 @@
+.trust {
+
+}
+
+    .trust__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 7px;
+    }
+
+    .trust__item:first-child {
+        margin-left: 0;
+    }

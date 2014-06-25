@@ -3,7 +3,7 @@
 }
 
     .form__header {
-        background: #4280c7;
+        background: #7dc400;
         padding: 12px 17px 12px 22px;
     }
 
@@ -63,3 +63,19 @@
                 vertical-align: top;
                 margin-left: 20px;
             }
+
+#form-errors {
+    background: #f7dfdf url(../images/icon_error.png) 12px 13px no-repeat;
+    border: 1px solid #f69b9b;
+    border-radius: 5px;
+    padding: 10px 5px 10px 20px;
+    width: 485px;
+}
+
+#form-success {
+    background: #d2f7cc url(../images/icon_check.png) 12px 13px no-repeat;
+    border: 1px solid #99f38a;
+    border-radius: 5px;
+    padding: 10px 5px 10px 20px;
+    width: 485px;
+}

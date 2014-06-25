@@ -1,2 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=vietnamese);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,vietnamese);
+
+@font-face {
+    font-family: 'TeXGyreAdventor Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TeXGyreAdventor Bold'), url(../fonts/texgyreadventor-bold.woff) format('woff');
+}

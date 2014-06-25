@@ -49,7 +49,7 @@ $(document).on('ready',function(){
     $('[data-popup]').on('click', function(event){
         event.preventDefault();
         popupShow( $($(this).data('popup')) );
-    })
+    });
 
 
     /* hide popup by window close click */
