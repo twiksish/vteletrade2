@@ -1,0 +1,66 @@
+.quote {
+
+}
+
+    .quote__image {
+        width: 200px;
+        height: 200px;
+        box-shadow: 7px 11px 25.65px 1.35px rgba(0, 0, 0, 0.75);
+        border: 8px solid #fff;
+        border-radius: 50%;
+        background: #fff;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -7px;
+    }
+
+        .quote__image__file {
+            width: 200px;
+            height: 200px;
+        }
+
+    .quote__body {
+        background: #fff;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        width: 548px;
+        border-radius: 7px;
+        box-shadow: 0 13px 14.25px 0.75px rgba(0, 0, 0, 0.75);
+        margin-left: 38px;
+        margin-top: 13px;
+        padding: 23px 55px 26px 33px;
+    }
+
+        .quote__body__name {
+            font-size: 24px;
+            line-height: 26px;
+            color: #0078bc;
+        }
+
+        .quote__body__text {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: bold;
+            color: #3e3e3e;
+            margin-top: 5px;
+        }
+
+        .quote__body__date {
+            font-size: 18px;
+            line-height: 20px;
+            color: #bfbfbf;
+            margin-top: 7px;
+        }
+
+        .quote__body__icon {
+            position: absolute;
+            top: 12px;
+            right: 18px;
+        }
+
+        .quote__body__pin {
+            position: absolute;
+            top: 35px;
+            left: -28px;
+        }

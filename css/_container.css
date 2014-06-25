@@ -10,6 +10,8 @@
     .container__body {
         background: #fff;
         padding-bottom: 43px;
+        position: relative;
+        box-shadow: 0 13px 14px 1px rgba(0, 0, 0, 0.75);
     }
 
         .container__body__header {
@@ -49,3 +51,11 @@
         .container__body__bottom {
             margin-top: 46px;
         }
+
+    .container__quote {
+        margin-top: 44px;
+    }
+
+    .container__button {
+
+    }
