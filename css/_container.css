@@ -1,6 +1,7 @@
 .container {
     width: 890px;
     margin: 0 auto;
+    padding-bottom: 68px;
 }
 
     .container__header {
@@ -57,5 +58,5 @@
     }
 
     .container__button {
-
+        margin-top: 52px;
     }
