@@ -1,0 +1,57 @@
+.popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+    .popup__container {
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+        .popup__container__overlay {
+            position: fixed;
+            z-index: 8000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            background: rgba(0,0,0,.8);
+            cursor: pointer;
+        }
+
+        .popup__container__viewport {
+            display: table-cell;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+            .popup__container__viewport__slot {
+                position: relative;
+                z-index: 9000;
+                display: inline-block;
+                vertical-align: top;
+                text-align: left;
+                margin: 40px 20px;
+            }
+
+                .popup__container__viewport__slot__close {
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    line-height: 36px;
+                    border-radius: 50%;
+                    background: #fff;
+                    color: #4280c7;
+                    font-size: 20px;
+                    text-align: center;
+                    position: absolute;
+                    right: 17px;
+                    top: 12px;
+                    cursor: pointer;
+                }
